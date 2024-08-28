@@ -1,0 +1,124 @@
+/* Fecha: 27-08-2024.
+   Challenge Encriptador de Texto.
+   Author: Diego Carmona.
+   Aquí se encuentra la parte visual del proyecto. */
+
+
+
+body {
+    height: 100vh;
+    margin:0;
+}
+
+.bg {
+    background-color: #CED4DA;
+}
+
+.contenedor {
+    padding-top: 5%;
+    width: 80%;
+    margin: 10px auto;
+    border: 0px;
+    display: block;
+    color: #0A3871;
+    background-color: #CED4DA;
+    height: 40%;
+    font-size: 34px;
+}
+
+.contenedor::placeholder {
+    color: #0A3871;
+}
+
+.contenedor2 {
+    color: #495057;
+    width: 90%;
+    margin: 10px auto;
+    border: 0px;
+    display: block;
+    height: 40%;
+    font-size: 24px;
+}
+
+.seccion2 {
+    padding-top: 20px;
+    height: 65vh;
+    background-color: #fff;
+    border-radius: 32px;
+    margin-bottom: 5%;
+}
+
+.imagen {
+    padding-top: 25%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.encriptar-btn {
+    background-color: #0A3871;
+    color: #fff;
+    border-radius: 24px;
+    height: 65px;
+    width: 40%;
+}
+
+.desencriptar-btn {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    height: 65px;
+    width: 40%;
+}
+
+.container-button {
+    text-align: center;
+    /* Alinea el contenido al centro dentro del contenedor */
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    /* Espacio entre botones */
+}
+
+.footer {
+    background-color: #0A3871;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    margin-top: 2px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    padding: 30px;
+}
+
+.copy-btn {
+    background-color: #fff;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    display: block;
+    margin: 0 auto;
+    height: 65px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .imagen {
+        display: none;
+    }
+
+    .seccion2 {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+}

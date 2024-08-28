@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto desafio encriptador de texto Alura Oracle One Next G-7">
+    <meta name="author" content="Diego Carmona">
+    <title>Desafio Encriptador de texto</title>
+    <!-- Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/librerias/bootstrap/css/bootstrap.min.css">
+    <link href="assets/img/logo.png" rel="icon">
+</head>
+
+<body class="bg">
+    <nav>
+        <!-- Logo  -->
+        <img src="assets/img/logo.png" class="logo" alt="Logo Alura">
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+
+                <br>
+
+                <textarea class="contenedor" id="inputText" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+                <div class="row">
+                    <p>
+                        <img src="assets/img/icons/bi_exclamation-circle-fill.png" alt="Exclamación">
+                        Solo se permiten letras minúsculas y sin acentos
+                    </p>
+                    <div class="container-button">
+                        <button class="encriptar-btn" id="encryptBtn">Encriptar</button>
+                        <button class="desencriptar-btn" id="decryptBtn">Desencriptar</button>
+                    </div><!--./End Div container-button -->
+                </div><!--./End Div row -->
+
+            </div><!-- ./End Div col-sm-9 -->
+            <div class="col-sm-3 seccion2" style="margin-top: 20px;">
+
+                <img src="assets/img/muneco.png" alt="" class="imagen">
+                <p class="text-center mensaje">
+                    <strong>Ningún mensaje fue encontrado<br></strong>Ingresa el texto que
+                    desees <br>encriptar o desencriptar.</p>
+                <textarea class="contenedor2" id="outputText" rows="4" readonly style="display: none;"></textarea>
+                <button class="copy-btn" id="copyBtnEncrypt" style="display: none;">Copiar Encriptado</button>
+                <button class="copy-btn" id="copyBtnDecrypt" style="display: none;">Copiar Desencriptado</button>
+
+            </div><!--./End Div col-sm-3  -->
+        </div><!--./End Div row -->
+    </div><!-- ./End Div container-->
+
+    <footer class="footer">
+        <a href="https://github.com/diegocarmona18" target="_blank">Diseñado por Diego Carmona &copy; 2024</a>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
